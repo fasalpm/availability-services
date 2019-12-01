@@ -1,0 +1,19 @@
+{
+    "name": "salesdock/availabilityservices",
+    "description": "List The Products",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fasal PM",
+            "email": "fasalpm13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4" :{
+            "Salesdock\\Availabilityservices\\": "src/"
+        }
+    }
+}
