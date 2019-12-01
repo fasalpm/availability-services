@@ -15,7 +15,7 @@ class AServiceProvider extends ServiceProvider
     protected $defer = true;
     public function register()
     {
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        // $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->app->bind('Salesdock\Availabilityservices\lib\AInterface','Salesdock\Availabilityservices\lib\AEloquent', function(){
 
             return new AEloquent();
